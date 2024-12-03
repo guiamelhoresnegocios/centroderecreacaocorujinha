@@ -1,0 +1,143 @@
+/* Resetando estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #FFBC00; /* Cor alegre, representando energia e diversão */
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+header i {
+    margin-right: 10px;
+    font-size: 3em;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.cta-btn {
+    background-color: #F40000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #E00000;
+}
+
+/* Seções principais */
+main section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #FFBC00;
+}
+
+main section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Estilo do vídeo */
+.video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do Google Maps */
+.maps iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links de contato */
+.contato a {
+    color: #FFBC00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+/* Botões de redes sociais */
+.social-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-btn i {
+    margin-right: 10px;
+}
+
+.social-btn:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
